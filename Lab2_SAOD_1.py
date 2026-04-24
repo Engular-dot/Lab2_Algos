@@ -142,7 +142,7 @@ def main():
         print(route.get_bus_position_after_n_stops(n))
 
     test_time = [0,1,2,14,17,21,50]
-    for n in time_test:
+    for n in test_time:
         print(route.get_bus_position_after_n_time(n))
     
     print("\nПОСТРОЕНИЕ ОБРАТНОГО МАРШРУТА ")
